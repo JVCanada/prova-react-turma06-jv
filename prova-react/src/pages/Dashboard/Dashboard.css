@@ -168,7 +168,11 @@
     content: ""; }
   
   .fa-search:before {
-    content: ""; }
+    content: ""; }
+
+  /* .fafa-search:before {
+    background-color: green;
+  } */
   
   .fa-envelope-o:before {
     content: ""; }

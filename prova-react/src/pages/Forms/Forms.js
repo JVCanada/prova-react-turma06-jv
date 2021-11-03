@@ -81,7 +81,7 @@ function Forms(props) {
                             <ol class="breadcrumb my-breadcrumb">
                                 <li class="breadcrumb-item"> <Link to="/"> Home </Link> </li>
                                 <li class="breadcrumb-item"><Link to="/"> Elements </Link></li>
-                                <li class="breadcrumb-item active" aria-current="page"> Content Block </li>
+                                <li class="breadcrumb-item active" aria-current="page"> Forms </li>
                             </ol>
                         </nav>
                         {/* <!-- //breadcrumbs --> */}

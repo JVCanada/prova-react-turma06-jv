@@ -24,7 +24,7 @@ function Sidebar(props) {
                 {/* <!-- //image logo --> */}
 
                 <div class="logo-icon text-center">
-                    <Link to="/"> <img src="assets/images/logo.png" alt="logo-icon" />  </Link>
+                    <Link to="/"> <img src="../assets/images/logo.png" alt="logo-icon" />  </Link>
                 </div>
                 {/* <!-- //logo end --> */}
 

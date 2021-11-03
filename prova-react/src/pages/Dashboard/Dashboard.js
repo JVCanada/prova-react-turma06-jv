@@ -1,10 +1,10 @@
+import '../Dashboard/Dashboard.css'
+
 import React from 'react'
 import { Link } from "react-router-dom";
 import Sidebar from '../../components/template/Sidebar'
 import SidebarScript from '../../components/macro/SidebarScript';
 import Footer from '../../components/template/Footer/Footer'
-
-import '../Dashboard/Dashboard.css'
 
 function Dashboard(props) {
 
