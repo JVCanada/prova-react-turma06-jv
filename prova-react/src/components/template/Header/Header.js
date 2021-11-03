@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
 // Importando imagens:
 import User from '../../../assets/images/icon-user.png'
@@ -24,10 +25,10 @@ function Header(props) {
                             <li class="dropdown profile_details_drop">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" id="dropdownMenu3" aria-haspopup="true"
                                     aria-expanded="false">
-                                    <div class="profile_img">
-                                        <img src={User} class="rounded-circle" alt="" />
-                                        <div class="user-active">
-                                            <span></span>
+                                    <div class="profile_img"> <Link to="/">
+                                        <img src={User} class="rounded-circle" alt="" /> </Link>
+                                        <div class="user-active"> 
+                                            <span></span> 
                                         </div>
                                     </div>
                                 </a>
