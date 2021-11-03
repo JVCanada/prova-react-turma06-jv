@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 
 import '../Dashboard/Dashboard.css'
 
@@ -7,7 +8,23 @@ function Dashboard(props) {
     return (
         <>
 
-            <div class="sidebar-menu-collapsed">
+            <html lang="en">
+
+            <head>
+            {/* <!-- Required meta tags --> */}
+            <meta charset="utf-8"/>
+            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+
+            <title>Collective Admin Panel Flat a Bootstrap Responsive Website Template | Cards :: W3Layouts</title>
+
+            {/* <!-- Bootstrap CSS --> */}
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"/>
+            {/* <!-- Template CSS --> */}
+            <link rel="stylesheet" href="assets/css/style.css"/>
+
+            </head>
+
+            <body class="sidebar-menu-collapsed">
                 {/* <!-- <div class="se-pre-con"></div> --> */}
                 <section>
                     {/* <!-- sidebar menu start --> */}
@@ -15,7 +32,7 @@ function Dashboard(props) {
 
                         {/* <!-- logo start --> */}
                         <div class="logo">
-                            <h1><a href="index.html">Collective</a></h1>
+                            <h1><Link to="/"> Collective </Link> </h1>
                         </div>
 
                         {/* <!-- if logo is image enable this --> */}
@@ -28,7 +45,7 @@ function Dashboard(props) {
         <!-- //image logo --> */}
 
                         <div class="logo-icon text-center">
-                            <a href="index.html" title="logo"><img src="assets/images/logo.png" alt="logo-icon" /> </a>
+                            <Link to="/"> <img src="assets/images/logo.png" alt="logo-icon" />  </Link>
                         </div>
                         {/* <!-- //logo end --> */}
 
@@ -36,12 +53,12 @@ function Dashboard(props) {
 
                             {/* <!-- sidebar nav start --> */}
                             <ul class="nav nav-pills nav-stacked custom-nav">
-                                <li><a href="index.html"><i class="fa fa-tachometer"></i><span> Dashboard</span></a>
+                                <li><Link to="/"><i class="fa fa-tachometer"></i><span> Dashboard</span> </Link>
                                 </li>
-                                <li><a href="cards.html"><i class="fa fa-cogs"></i> <span>Default cards</span></a></li>
-                                <li><a href="pricing.html"><i class="fa fa-table"></i> <span>Pricing tables</span></a></li>
-                                <li><a href="blocks.html"><i class="fa fa-th"></i> <span>Content blocks</span></a></li>
-                                <li><a href="forms.html"><i class="fa fa-file-text"></i> <span>Forms</span></a></li>
+                                <li><Link to="/cards"><i class="fa fa-cogs"></i> <span>Default cards</span> </Link> </li>
+                                <li><Link to="/pricing"><i class="fa fa-table"></i> <span>Pricing tables</span> </Link> </li>
+                                <li><Link to="/blocks"><i class="fa fa-th"></i> <span>Content blocks</span> </Link> </li>
+                                <li><Link to="/forms"><i class="fa fa-file-text"></i> <span>Forms</span> </Link> </li>
                             </ul>
                             {/* <!-- //sidebar nav end -->
             <!-- toggle button start --> */}
@@ -65,7 +82,7 @@ function Dashboard(props) {
                                         <button class="search-submit" value=""><span class="fa fa-search"></span></button>
                                     </form>
                                 </div>
-                                <div class="profile_details">
+                                {/* <div class="profile_details">
                                     <ul>
                                         <li class="dropdown profile_details_drop">
                                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" id="dropdownMenu3" aria-haspopup="true"
@@ -90,7 +107,7 @@ function Dashboard(props) {
                                             </ul>
                                         </li>
                                     </ul>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>
@@ -105,7 +122,7 @@ function Dashboard(props) {
 
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb my-breadcrumb">
-                                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                <li class="breadcrumb-item"> <Link to="/"> Home </Link></li>
                                 <li class="breadcrumb-item active" aria-current="page">Dashboard</li>
                             </ol>
                         </nav>
@@ -228,7 +245,9 @@ function Dashboard(props) {
                     </script> */}
 
 
-        </div>
+        </body>
+
+        </html>
 
 
     </>
