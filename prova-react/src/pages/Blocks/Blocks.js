@@ -1,7 +1,10 @@
 import React from 'react'
 import { Link } from "react-router-dom";
+import Sidebar from '../../components/template/Sidebar'
+import Footer from '../../components/template/Footer/Footer'
 
 import '../Blocks/Blocks.css'
+
 
 function Blocks(props) {
 
@@ -24,50 +27,8 @@ function Blocks(props) {
                 <body class="sidebar-menu-collapsed">
                     {/* <!-- <div class="se-pre-con"></div> --> */}
                     <section>
-                        {/* <!-- sidebar menu start --> */}
-                        <div class="sidebar-menu sticky-sidebar-menu">
-
-                            {/* <!-- logo start --> */}
-                            <div class="logo">
-                                <h1><Link to="/"> Collective </Link> </h1>
-                            </div>
-
-                            {/* <!-- if logo is image enable this --> */}
-                            {/* <!-- image logo 
-    <div class="logo">
-      <a href="index.html">
-        <img src="image-path" alt="Your logo" title="Your logo" class="img-fluid" style="height:35px;" />
-      </a>
-    </div>--> */}
-                            {/* <!-- //image logo --> */}
-
-                            <div class="logo-icon text-center">
-                                <Link to="/"> <img src="assets/images/logo.png" alt="logo-icon" />  </Link>
-                            </div>
-                            {/* <!-- //logo end --> */}
-
-                            <div class="sidebar-menu-inner">
-
-                                {/* <!-- sidebar nav start --> */}
-                                <ul class="nav nav-pills nav-stacked custom-nav">
-                                    <li><Link to="/"><i class="fa fa-tachometer"></i><span> Dashboard</span> </Link>
-                                    </li>
-                                    <li><Link to="/cards"><i class="fa fa-cogs"></i> <span>Default cards</span> </Link> </li>
-                                    <li><Link to="/pricing"><i class="fa fa-table"></i> <span>Pricing tables</span> </Link> </li>
-                                    <li><Link to="/blocks"><i class="fa fa-th"></i> <span>Content blocks</span> </Link> </li>
-                                    <li><Link to="/forms"><i class="fa fa-file-text"></i> <span>Forms</span> </Link> </li>
-                                </ul>
-                                {/* <!-- //sidebar nav end -->
-        <!-- toggle button start --> */}
-                                <a class="toggle-btn" onclick="toggleMenu()">
-                                    <i class="fa fa-angle-double-left menu-collapsed__left"><span>Collapse Sidebar</span></i>
-                                    <i class="fa fa-angle-double-right menu-collapsed__right"></i>
-                                </a>
-                                {/* <!-- //toggle button end --> */}
-                            </div>
-                        </div>
-                        {/* <!-- //sidebar menu end -->
-    <!-- header-starts --> */}
+                        <Sidebar/>
+    {/* <!-- header-starts --> */} 
                         <div class="header sticky-header">
 
                             {/* <!-- notification menu start --> */}
@@ -258,10 +219,7 @@ function Blocks(props) {
     {/* <!-- main content end--> */}
   </section>
   {/* <!--footer section start--> */}
-  <footer class="dashboard">
-    <p>copy 2020 Collective. All Rights Reserved | Design by <a href="https://w3layouts.com/" target="_blank"
-        class="text-primary">W3layouts.</a></p>
-  </footer>
+  <Footer/>
   {/* <!--footer section end--> */}
 
   {/* <!--abrir e fechar o menu--> */}
