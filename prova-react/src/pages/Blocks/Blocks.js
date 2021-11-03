@@ -2,6 +2,11 @@ import React from 'react'
 import { Link } from "react-router-dom";
 import Sidebar from '../../components/template/Sidebar'
 import Footer from '../../components/template/Footer/Footer'
+import Header from '../../components/template/Header/Header'
+
+// Importando imagens:
+import Template1Image from '../../assets/images/template1.jpg' 
+import Template2Image from '../../assets/images/template2.jpg' 
 
 import '../Blocks/Blocks.css'
 
@@ -28,49 +33,7 @@ function Blocks(props) {
                     {/* <!-- <div class="se-pre-con"></div> --> */}
                     <section>
                         <Sidebar/>
-    {/* <!-- header-starts --> */} 
-                        <div class="header sticky-header">
-
-                            {/* <!-- notification menu start --> */}
-                            <div class="menu-right">
-                                <div class="navbar user-panel-top">
-                                    <div class="search-box">
-                                        <form action="#search-results.html" method="get">
-                                            <input class="search-input" placeholder="Search Here..." type="search" id="search" />
-                                            <button class="search-submit" value=""><span class="fa fa-search"></span></button>
-                                        </form>
-                                    </div>
-                                    <div class="profile_details">
-                                        <ul>
-                                            <li class="dropdown profile_details_drop">
-                                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" id="dropdownMenu3" aria-haspopup="true"
-                                                    aria-expanded="false">
-                                                    <div class="profile_img">
-                                                        <img src="assets/images/profileimg.jpg" class="rounded-circle" alt="" />
-                                                        <div class="user-active">
-                                                            <span></span>
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                                <ul class="dropdown-menu drp-mnu" aria-labelledby="dropdownMenu3">
-                                                    <li class="user-info">
-                                                        <h5 class="user-name">John Deo</h5>
-                                                        <span class="status ml-2">Available</span>
-                                                    </li>
-                                                    <li> <a href="#"><i class="lnr lnr-user"></i>My Profile</a> </li>
-                                                    <li> <a href="#"><i class="lnr lnr-users"></i>1k Followers</a> </li>
-                                                    <li> <a href="#"><i class="lnr lnr-cog"></i>Setting</a> </li>
-                                                    <li> <a href="#"><i class="lnr lnr-heart"></i>100 Likes</a> </li>
-                                                    <li class="logout"> <a href="#sign-up.html"><i class="fa fa-power-off"></i> Logout</a> </li>
-                                                </ul>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        {/* <!--notification menu end --> */}
-                        {/* </div> */}
+                        <Header/>
                         {/* <!-- //header-ends -->
     <!-- main content start --> */}
                         <div class="main-content">
@@ -107,7 +70,7 @@ function Blocks(props) {
                 <a href="#read" class="btn btn-style btn-primary"> Read More</a>
               </div>
               <div class="col-lg-6 pl-lg-4 mt-lg-0 mt-4">
-                <img src="assets/images/template2.jpg" alt="" class="img-fluid rounded" />
+                <img src={Template2Image} alt="" class="img-fluid rounded" />
               </div>
             </div>
           </div>
@@ -119,7 +82,7 @@ function Blocks(props) {
           <div class="card-body py-3 p-0">
             <div class="row">
               <div class="col-lg-6 pr-lg-4">
-                <img src="assets/images/template1.jpg" alt="" class="img-fluid rounded" />
+                <img src={Template1Image} alt="" class="img-fluid rounded" />
               </div>
               <div class="col-lg-6 align-self pl-lg-4 mt-lg-0 mt-4">
                 <h3 class="block__title mb-lg-4">Content Block with 2 buttons</h3>
@@ -205,7 +168,7 @@ function Blocks(props) {
                 </div>
               </div>
               <div class="col-md-6 mt-md-0 mt-5 cwp23-img">
-                <img src="assets/images/template2.jpg" class="img-fluid rounded" alt=""/>
+                <img src={Template2Image} class="img-fluid rounded" alt=""/>
               </div>
             </div>
           </div>

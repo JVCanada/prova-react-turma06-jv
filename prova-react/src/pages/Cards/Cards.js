@@ -2,6 +2,15 @@ import React from 'react'
 import { Link } from "react-router-dom";
 import Sidebar from '../../components/template/Sidebar'
 import Footer from '../../components/template/Footer/Footer'
+import Header from '../../components/template/Header/Header'
+
+// Importando imagens:
+
+import CartImage from '../../assets/images/cart.jpg'
+import DashboardImage from '../../assets/images/dashboard.jpg'
+import DeskImage from '../../assets/images/desk.jpg'
+import Template2Image from '../../assets/images/template2.jpg' 
+
 
 import '../Cards/Cards.css'
 
@@ -28,48 +37,7 @@ function Cards(props) {
                     <section>
                         <Sidebar/>
     {/* <!-- header-starts --> */} 
-                        <div class="header sticky-header">
-
-                            {/* <!-- notification menu start --> */}
-                            <div class="menu-right">
-                                <div class="navbar user-panel-top">
-                                    <div class="search-box">
-                                        <form action="#search-results.html" method="get">
-                                            <input class="search-input" placeholder="Search Here..." type="search" id="search" />
-                                            <button class="search-submit" value=""><span class="fa fa-search"></span></button>
-                                        </form>
-                                    </div>
-                                    <div class="profile_details">
-                                        <ul>
-                                            <li class="dropdown profile_details_drop">
-                                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" id="dropdownMenu3" aria-haspopup="true"
-                                                    aria-expanded="false">
-                                                    <div class="profile_img">
-                                                        <img src="assets/images/profileimg.jpg" class="rounded-circle" alt="" />
-                                                        <div class="user-active">
-                                                            <span></span>
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                                <ul class="dropdown-menu drp-mnu" aria-labelledby="dropdownMenu3">
-                                                    <li class="user-info">
-                                                        <h5 class="user-name">John Deo</h5>
-                                                        <span class="status ml-2">Available</span>
-                                                    </li>
-                                                    <li> <a href="#"><i class="lnr lnr-user"></i>My Profile</a> </li>
-                                                    <li> <a href="#"><i class="lnr lnr-users"></i>1k Followers</a> </li>
-                                                    <li> <a href="#"><i class="lnr lnr-cog"></i>Setting</a> </li>
-                                                    <li> <a href="#"><i class="lnr lnr-heart"></i>100 Likes</a> </li>
-                                                    <li class="logout"> <a href="#sign-up.html"><i class="fa fa-power-off"></i> Logout</a> </li>
-                                                </ul>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        {/* <!--notification menu end --> */}
-                        {/* </div> */}
+                        <Header/>
                         {/* <!-- //header-ends -->
     <!-- main content start --> */}
                         <div class="main-content">
@@ -94,7 +62,7 @@ function Cards(props) {
                                         <div class="card-body">
                                             <div class="card-columns">
                                                 <div class="card">
-                                                    <img src="assets/images/cart.jpg" class="card-img-top" alt="..." />
+                                                    <img src={CartImage} class="card-img-top" alt="..." />
                                                     <div class="card-body">
                                                         <h5 class="card-title">Card title that wraps to a new line</h5>
                                                         <p class="card-text mb-4">This is a longer card with supporting text below as a natural lead-in to
@@ -114,7 +82,7 @@ function Cards(props) {
                                                     </blockquote>
                                                 </div>
                                                 <div class="card">
-                                                    <img src="assets/images/template2.jpg" class="card-img-top" alt="..." />
+                                                    <img src={Template2Image} class="card-img-top" alt="..." />
                                                     <div class="card-body">
                                                         <h5 class="card-title">Card title</h5>
                                                         <p class="card-text  mb-4">This card has supporting text below as a natural lead-in to additional
@@ -143,7 +111,7 @@ function Cards(props) {
                                                     </div>
                                                 </div>
                                                 <div class="card">
-                                                    <img src="assets/images/dashboard.jpg" class="card-img-top" alt="..." />
+                                                    <img src={DashboardImage} class="card-img-top" alt="..." />
                                                 </div>
                                                 <div class="card p-3 text-right">
                                                     <blockquote class="blockquote mb-0">
@@ -180,7 +148,7 @@ function Cards(props) {
                                             <div class="row row-cols-1 row-cols-md-2">
                                                 <div class="col mb-4">
                                                     <div class="card">
-                                                        <img src="assets/images/template2.jpg" class="card-img-top" alt="..." />
+                                                        <img src={Template2Image} class="card-img-top" alt="..." />
                                                         <div class="card-body">
                                                             <h5 class="card-title">Card title</h5>
                                                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
@@ -191,7 +159,7 @@ function Cards(props) {
                                                 </div>
                                                 <div class="col mb-4">
                                                     <div class="card">
-                                                        <img src="assets/images/desk.jpg" class="card-img-top" alt="..." />
+                                                        <img src={DeskImage} class="card-img-top" alt="..." />
                                                         <div class="card-body">
                                                             <h5 class="card-title">Card title</h5>
                                                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
@@ -202,7 +170,7 @@ function Cards(props) {
                                                 </div>
                                                 <div class="col mb-4">
                                                     <div class="card">
-                                                        <img src="assets/images/cart.jpg" class="card-img-top" alt="..." />
+                                                        <img src={CartImage} class="card-img-top" alt="..." />
                                                         <div class="card-body">
                                                             <h5 class="card-title">Card title</h5>
                                                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
@@ -213,7 +181,7 @@ function Cards(props) {
                                                 </div>
                                                 <div class="col mb-4">
                                                     <div class="card">
-                                                        <img src="assets/images/dashboard.jpg" class="card-img-top" alt="..." />
+                                                        <img src={DashboardImage} class="card-img-top" alt="..." />
                                                         <div class="card-body">
                                                             <h5 class="card-title">Card title</h5>
                                                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in to

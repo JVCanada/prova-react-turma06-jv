@@ -1,6 +1,9 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 
+// Importando Imagens:
+import Logo from '../../assets/images/logo.png'
+
 function Sidebar(props) {
 
     return(
@@ -24,7 +27,7 @@ function Sidebar(props) {
                 {/* <!-- //image logo --> */}
 
                 <div class="logo-icon text-center">
-                    <Link to="/"> <img src="../assets/images/logo.png" alt="logo-icon" />  </Link>
+                    <Link to="/"> <img src={Logo}/>  </Link>
                 </div>
                 {/* <!-- //logo end --> */}
 
