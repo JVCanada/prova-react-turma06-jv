@@ -168,7 +168,17 @@
       content: ""; }
     
     .fa-search:before {
-      content: ""; }
+      content: "";
+      background-image: url(../src/assets/images/icon-search.png); 
+      width: 40px;
+      height: 40px;
+      background-repeat: no-repeat;
+      background-size: 20px;
+      position: absolute;
+      margin-left: -15px;
+      margin-top: -17px;
+    
+    }
     
     .fa-envelope-o:before {
       content: ""; }
@@ -192,7 +202,17 @@
       content: ""; }
     
     .fa-th:before {
-      content: ""; }
+      content: "";
+      background-image: url(../src/assets/images/icon-blocks.png); 
+      width: 40px;
+      height: 40px;
+      background-repeat: no-repeat;
+      background-size: 30px;
+      position: absolute;
+      margin-left: -15px;
+      margin-top: -15px;
+    
+    }
     
     .fa-th-list:before {
       content: ""; }
@@ -215,7 +235,17 @@
       content: ""; }
     
     .fa-signal:before {
-      content: ""; }
+      content: "";
+      background-image: url(../src/assets/images/icon-connec.png); 
+      width: 40px;
+      height: 40px;
+      background-repeat: no-repeat;
+      background-size: 30px;
+      position: absolute;
+      margin-left: -15px;
+      margin-top: -17px;
+    
+    }
     
     .fa-gear:before,
     .fa-cog:before {
@@ -549,7 +579,17 @@
     
     .fa-gears:before,
     .fa-cogs:before {
-      content: ""; }
+      content: "";
+      background-image: url(../src/assets/images/icon-config.png); 
+      width: 40px;
+      height: 40px;
+      background-repeat: no-repeat;
+      background-size: 30px;
+      position: absolute;
+      margin-left: -15px;
+      margin-top: -15px;
+    
+    }
     
     .fa-comments:before {
       content: ""; }
@@ -729,7 +769,16 @@
       content: ""; }
     
     .fa-table:before {
-      content: ""; }
+      content: "";
+      background-image: url(../src/assets/images/icon-prices.png); 
+      width: 40px;
+      height: 40px;
+      background-repeat: no-repeat;
+      background-size: 30px;
+      position: absolute;
+      margin-left: -15px;
+      margin-top: -15px;
+    }
     
     .fa-magic:before {
       content: ""; }
@@ -795,7 +844,16 @@
     
     .fa-dashboard:before,
     .fa-tachometer:before {
-      content: ""; }
+      content: "";
+      background-image: url(../src/assets/images/icon-dashboard.png); 
+      width: 40px;
+      height: 40px;
+      background-repeat: no-repeat;
+      background-size: 30px;
+      position: absolute;
+      margin-left: -15px;
+      margin-top: -15px;
+    }
     
     .fa-comment-o:before {
       content: ""; }
@@ -848,7 +906,8 @@
       content: ""; }
     
     .fa-file-text-o:before {
-      content: ""; }
+      content: ""; 
+    }
     
     .fa-building-o:before {
       content: ""; }
@@ -878,7 +937,17 @@
       content: ""; }
     
     .fa-angle-double-right:before {
-      content: ""; }
+      content: "";
+      background-image: url(../src/assets/images/icon-arrow.png); 
+      width: 40px;
+      height: 40px;
+      background-repeat: no-repeat;
+      background-size: 30px;
+      position: absolute;
+      margin-left: -15px;
+      margin-top: -20px;
+    
+    }
     
     .fa-angle-double-up:before {
       content: ""; }
@@ -902,7 +971,17 @@
       content: ""; }
     
     .fa-laptop:before {
-      content: ""; }
+      content: "";
+      background-image: url(../src/assets/images/icon-dash-people.png); 
+      width: 40px;
+      height: 40px;
+      background-repeat: no-repeat;
+      background-size: 30px;
+      position: absolute;
+      margin-left: -15px;
+      margin-top: -17px;
+    
+    }
     
     .fa-tablet:before {
       content: ""; }
@@ -1149,7 +1228,17 @@
       content: ""; }
     
     .fa-file-text:before {
-      content: ""; }
+      content: "";
+      background-image: url(../src/assets/images/icon-form.png); 
+      width: 40px;
+      height: 40px;
+      background-repeat: no-repeat;
+      background-size: 30px;
+      position: absolute;
+      margin-left: -15px;
+      margin-top: -17px;
+    
+    }
     
     .fa-sort-alpha-asc:before {
       content: ""; }
@@ -1625,7 +1714,17 @@
       content: ""; }
     
     .fa-paint-brush:before {
-      content: ""; }
+      content: "";
+      background-image: url(../src/assets/images/icon-paint.png); 
+      width: 40px;
+      height: 40px;
+      background-repeat: no-repeat;
+      background-size: 30px;
+      position: absolute;
+      margin-left: -15px;
+      margin-top: -17px;
+    
+    }
     
     .fa-birthday-cake:before {
       content: ""; }
@@ -2373,7 +2472,17 @@
       content: "\e80a"; }
     
     .lnr-cloud-download:before {
-      content: "\e80b"; }
+      content: "";
+      background-image: url(../src/assets/images/icon-dash-cloud.png); 
+      width: 40px;
+      height: 40px;
+      background-repeat: no-repeat;
+      background-size: 30px;
+      position: absolute;
+      margin-left: -15px;
+      margin-top: -17px;
+    
+    }
     
     .lnr-cloud-sync:before {
       content: "\e80c"; }
@@ -2421,7 +2530,17 @@
       content: "\e81a"; }
     
     .lnr-eye:before {
-      content: "\e81b"; }
+      content: "";
+      background-image: url(../src/assets/images/icon-dash-eye.png); 
+      width: 40px;
+      height: 40px;
+      background-repeat: no-repeat;
+      background-size: 30px;
+      position: absolute;
+      margin-left: -15px;
+      margin-top: -17px;
+    
+    }
     
     .lnr-printer:before {
       content: "\e81c"; }
@@ -2466,10 +2585,22 @@
       content: "\e829"; }
     
     .lnr-user:before {
-      content: "\e82a"; }
+      content: "\e82a"; 
+    
+    }
     
     .lnr-users:before {
-      content: "\e82b"; }
+      content: "";
+      background-image: url(../src/assets/images/icon-dash-people.png); 
+      width: 40px;
+      height: 40px;
+      background-repeat: no-repeat;
+      background-size: 30px;
+      position: absolute;
+      margin-left: -15px;
+      margin-top: -17px;
+    
+    }
     
     .lnr-shirt:before {
       content: "\e82c"; }
@@ -2478,7 +2609,17 @@
       content: "\e82d"; }
     
     .lnr-cart:before {
-      content: "\e82e"; }
+      content: "";
+      background-image: url(../src/assets/images/icon-dash-cart.png); 
+      width: 40px;
+      height: 40px;
+      background-repeat: no-repeat;
+      background-size: 30px;
+      position: absolute;
+      margin-left: -15px;
+      margin-top: -17px;
+    
+    }
     
     .lnr-tag:before {
       content: "\e82f"; }
@@ -2520,7 +2661,9 @@
       content: "\e83b"; }
     
     .lnr-laptop:before {
-      content: "\e83c"; }
+      content: "\e83c"; 
+    
+    }
     
     .lnr-laptop-phone:before {
       content: "\e83d"; }

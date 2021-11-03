@@ -2,7 +2,7 @@ import '../Dashboard/Dashboard.css'
 
 import React from 'react'
 import { Link } from "react-router-dom";
-import Sidebar from '../../components/template/Sidebar'
+import Sidebar from '../../components/template/Sidebar/Sidebar'
 import SidebarScript from '../../components/macro/SidebarScript';
 import Footer from '../../components/template/Footer/Footer'
 import Header from '../../components/template/Header/Header'

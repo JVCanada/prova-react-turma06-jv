@@ -1,8 +1,10 @@
+import './Sidebar.css'
+
 import React from 'react'
 import { Link } from "react-router-dom";
 
 // Importando Imagens:
-import Logo from '../../assets/images/logo.png'
+import Logo from '../../../assets/images/logo.png'
 
 function Sidebar(props) {
 
@@ -35,7 +37,7 @@ function Sidebar(props) {
 
                     {/* <!-- sidebar nav start --> */}
                     <ul class="nav nav-pills nav-stacked custom-nav">
-                        <li><Link to="/"><i class="fa fa-tachometer"></i><span> Dashboard</span> </Link>
+                        <li><Link to="/"><i class="fa fa-tachometer dash"></i><span> Dashboard</span> </Link>
                         </li>
                         <li><Link to="/cards"><i class="fa fa-cogs"></i> <span>Default cards</span> </Link> </li>
                         <li><Link to="/pricing"><i class="fa fa-table"></i> <span>Pricing tables</span> </Link> </li>

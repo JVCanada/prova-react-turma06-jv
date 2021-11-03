@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from "react-router-dom";
-import Sidebar from '../../components/template/Sidebar'
+import Sidebar from '../../components/template/Sidebar/Sidebar'
 import Footer from '../../components/template/Footer/Footer'
 import Header from '../../components/template/Header/Header'
 
